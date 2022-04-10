@@ -24,6 +24,7 @@ jobs:
           npm install -g pnpm
           pnpm install
           pnpm build
+          
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
