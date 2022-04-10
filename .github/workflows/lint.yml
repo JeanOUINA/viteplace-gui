@@ -1,0 +1,33 @@
+# Shamelessly stolen from nault/nault
+name: Linting
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install and Build
+        run: |
+          npm install -g pnpm
+          pnpm install
+          pnpm lint
+
+      - name: Lint
+        run: |
+          pnpm lint
