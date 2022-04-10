@@ -94,8 +94,7 @@ const config: webpack.Configuration = {
             worker_threads: false,
             fs: false,
             perf_hooks: join(__dirname, "src/client/perf_hooks.ts"),
-            path: require.resolve("path-browserify"),
-            
+            path: require.resolve("path-browserify")
         }
     },
     plugins: [

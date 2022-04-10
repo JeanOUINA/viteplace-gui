@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run build",
     "build-dev": "webpack",
-    "build": "webpack --mode production --devtool nosources-source-map",
+    "build": "webpack --mode production",
     "watch": "webpack --watch",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
