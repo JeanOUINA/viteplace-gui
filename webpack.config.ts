@@ -101,6 +101,11 @@ const config: webpack.Configuration = {
         new webpack.ProvidePlugin({
             Buffer: ["buffer", "Buffer"],
         }),
+        new webpack.DefinePlugin({
+            "process": {
+                browser: true
+            }
+        }),
         new ForkTsCheckerWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: "VitePlace",
