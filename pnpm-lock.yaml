@@ -21,8 +21,7 @@ specifiers:
   '@use-gesture/react': ^10.2.11
   '@vite/connector': ^0.0.2
   '@vite/vitejs': ^2.3.18
-  '@vite/vitejs-http': ^2.3.17
-  '@vite/vitejs-ws': ^2.3.17
+  '@vite/vitejs-http': ^2.3.18
   assert: ^2.0.0
   bignumber.js: ^9.0.2
   buffer: ^6.0.3
@@ -78,8 +77,7 @@ dependencies:
   '@use-gesture/react': 10.2.11_react@17.0.2
   '@vite/connector': 0.0.2
   '@vite/vitejs': 2.3.18
-  '@vite/vitejs-http': 2.3.17
-  '@vite/vitejs-ws': 2.3.17
+  '@vite/vitejs-http': 2.3.18
   bignumber.js: 9.0.2
   eslint: 8.12.0
   framer-motion: 6.2.9_react-dom@17.0.2+react@17.0.2
@@ -1216,16 +1214,8 @@ packages:
       '@types/node': 12.20.46
     dev: false
 
-  /@vite/vitejs-http/2.3.17:
-    resolution: {integrity: sha512-XmPBY6ThAaHu+sQ0PtpwnPbd9UFkTzwGYCO8JEcxor3N3xl/vRKjHjT/KhCFIBPuV6e6xTlajM0F0UtJDhkQRA==}
-    dev: false
-
   /@vite/vitejs-http/2.3.18:
     resolution: {integrity: sha512-jxTqPShspvxArNbv/utJxFfS5rxrfjU46vrevKFbADxBhbUSz427pL8Izi25+yr3ecI0GkvrdpbCAp3mr4EDfA==}
-    dev: false
-
-  /@vite/vitejs-ws/2.3.17:
-    resolution: {integrity: sha512-kT/d0/T++ddPB/PktnN4Sl2Y9VSpePQixHEVJtT7pku9dOVhvkvJ21Jy5JjddDEBZi7nBkWqp8QDtf9FeVLwpw==}
     dev: false
 
   /@vite/vitejs-ws/2.3.18:
